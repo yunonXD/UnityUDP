@@ -29,7 +29,8 @@ public class UDPReceive : MonoBehaviour {
         {
              text = Console.ReadLine();
         }
-        while(!text.Equals("exit"));
+        while(!text.Equals("exit") || !text.Equals("Exit") );
+        
     }
     // start from unity3d
     public void Start(){   
